@@ -1,0 +1,7 @@
+yell Hello, Wordl! # print the message
+var x 1 # sets the variable x to value 1
+var -l x # показывает значение переменной х
+yell Goodbye, World! # прощается
+
+# this is a comment
+yell Hi! # И снова привет
