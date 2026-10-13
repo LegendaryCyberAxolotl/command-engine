@@ -6,7 +6,7 @@ class Parser:
 
     def parse(self, command_line):
         if command_line.startswith("#"):
-            return "comment", [], []
+            return "ghost", [], []
         
         self.command_line = command_line.strip()
         if not self.command_line:

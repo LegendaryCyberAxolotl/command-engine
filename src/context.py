@@ -11,3 +11,6 @@ class Context:
 
     def setSIGN(self, sign: str):
         self.SIGN = f"{sign} "
+
+    def setDEFAULT_SIGN(self):
+        self.SIGN = self.DEFAULT_SIGN
